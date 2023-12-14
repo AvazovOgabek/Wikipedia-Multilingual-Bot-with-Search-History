@@ -1,5 +1,4 @@
 Wikipedia Telegram Bot
-Wikipedia Telegram Bot
 
 A Telegram bot built with Python that utilizes the Wikipedia API to fetch information based on user queries. The bot supports language translation and user search history management.
 
@@ -10,29 +9,31 @@ Search History: Keeps track of user search history and allows clearing of histor
 Installation
 Clone the repository:
 
-bash
-Copy code
+```bash
 git clone https://github.com/your-username/telegram-wikipedia-bot.git
 cd telegram-wikipedia-bot
+```
 Install dependencies:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
+```
 Set up environment variables:
 Create a .env file with the following content:
 
-env
-Copy code
+.env
+```bash
 BOT_TOKEN=your_telegram_bot_token
 # Add any other necessary tokens here
+```
 Run the bot:
 
-bash
-Copy code
+
+```bash
 python bot.py
+```
 Usage
-Start the bot: Send a message or use the /start command.
+Start the bot: Send a message or use the ```/start``` command.
 Query Wikipedia: Enter your search query, and the bot will fetch information.
 Language Translation: Use inline buttons to translate content to different languages.
 Search History: View your search history with the /history command.
